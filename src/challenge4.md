@@ -8,9 +8,43 @@ In a markdown or text file called `challenge4.md` or `challenge4.txt`, write an 
 
    In JS, a First Class function can be:
   - *Stored in a variable*
+    
+        function greet(name) { 
+
+        return `Hi, ${name}!` 
+        }
+    
+    const greeting = greet('Elena');
+    
   - *Passed as an argument to a function*
+
+        function fullGreeting(greet, name) { 
+    
+          greet(name) 
+        }
+    
+    fullGreeting(greet, 'Elena')
+    
   - *Returned as a value by functions*
+
+        function createGreeting() { 
+    
+          return function greet(name) { 
+    
+            return `Hi, ${name}!`
+            }
+        }
   - *Be stored in a data structure (i.e. an array)*
+
+        function add(number1, number2) {
+            return number1 + number2
+        }
+    
+        function multiply(number1, number2) {
+            return number1 * number2
+        }
+    
+        const functionsArray = [add, multiply]
   
 3. **What the difference is between declaring a function and calling it**
    
