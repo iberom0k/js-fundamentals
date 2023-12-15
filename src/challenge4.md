@@ -47,5 +47,8 @@ In a markdown or text file called `challenge4.md` or `challenge4.txt`, write an 
         const functionsArray = [add, multiply]
   
 3. **What the difference is between declaring a function and calling it**
+
+   To declare a function is to give a name, specify its parameters, and define its functionality (what it does) in the body.
+   To call a function is to execute it with specific arguments, in other words, to use it. 
    
    Bonus: give examples for each explanation
