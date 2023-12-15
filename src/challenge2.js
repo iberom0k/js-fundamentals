@@ -4,7 +4,5 @@ function greet(name) {
     return 'Hi, ' + name + '!' 
 }
 
-
-
 const greeting = greet('Elena');
 console.log(greeting)
